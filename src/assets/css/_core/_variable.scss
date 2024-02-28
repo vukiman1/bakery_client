@@ -1,0 +1,16 @@
+:root {
+  --font-pri: "Lexend", sans-serif;
+  --size-hd: 10rem;
+}
+
+$color-pri: #e2b184;
+$color-second: #bebdbd;
+$color-text: #0a0603;
+$font-second: "Reem Kufi", sans-serif;
+$font-three: "Manrope", sans-serif;
+
+@mixin max($value) {
+  @media screen and (max-width: $value) {
+    @content;
+  }
+}

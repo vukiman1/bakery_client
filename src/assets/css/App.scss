@@ -1,0 +1,18 @@
+//resset
+@import "_core/reset";
+//mixin
+@import "_modules/mixin";
+//components
+@import "_components/header";
+@import "_components/navigation";
+@import "_components/banner";
+@import "_components/culture";
+
+//core
+@import "_core/base";
+@import "_core/font";
+@import "_core/variable";
+
+//page
+@import "_pages/listproduct";
+@import "_pages/tet-gift";
