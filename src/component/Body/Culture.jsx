@@ -6,8 +6,8 @@ function Culture() {
   const [product, setProduct] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:9999/product").then((res) => {
-      const sortProduct = res.data.slice().sort((a, b) => a.id - b.id);
+    axios.get("http://localhost:8888/bakery/products").then((res) => {
+      const sortProduct = res.data.Products.slice().sort((a, b) => a.id - b.id);
       setProduct(sortProduct);
     });
   }, []);
